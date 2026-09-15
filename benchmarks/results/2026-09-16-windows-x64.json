@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "project": "OmniDocX",
+  "environment": {
+    "os": "Windows",
+    "os_version": "10.0.19045",
+    "architecture": "AMD64",
+    "python": "3.13.11",
+    "logical_cpus": 8,
+    "source_commit": "25ba44102178e3f1b899822c3bfb9fe38c4a7794",
+    "harness_sha256": "c9303d23508172014062e7ae34d56ccbc8a9ffac20af0316718d83ceb4f4318d",
+    "physical_cores": 4,
+    "cpu": "11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz",
+    "ram_gib": 31.7,
+    "os_caption": "Microsoft Windows 10 专业版"
+  },
+  "measured_at_utc": "2026-09-15T23:07:53.628310+00:00",
+  "source_snapshot_commits": {
+    "UniPPT": "6ff38470e22de19dd822f4ff616e06cbb13148b5",
+    "unicell": "44bfc75e3c49eda4ac408f50c711ce70b0e34e7a",
+    "vecmeta": "2d2ce09aad1778b52a5af4bbc1902d166c286d08"
+  },
+  "manifest_sha256": "f12679d3c36f3e9da0f3104c210fd0b307316869ef0edc3ed76f4edc2b88fb79",
+  "files": 1321,
+  "source_bytes": 18463820,
+  "warmups_per_case": 2,
+  "samples_per_case": 7,
+  "concurrency": 1,
+  "p95_method": "nearest rank: sorted[ceil(0.95*n)-1]",
+  "timing_boundary": "Python and Git subprocess startup, indexed file inventory, file reads and SHA-256 verification; warm OS cache; excludes network and app runtime",
+  "cases": [
+    {
+      "operation": "verify_copies",
+      "size": 1321,
+      "samples_ms": [
+        1261.4173,
+        2106.0652,
+        2155.777,
+        2214.2269,
+        1331.32,
+        1190.0436,
+        1284.7396
+      ],
+      "median_ms": 1331.32,
+      "p95_ms": 2214.2269,
+      "min_ms": 1190.0436,
+      "max_ms": 2214.2269,
+      "validation": [
+        {
+          "files_checked": 1321,
+          "bytes_checked": 18463820,
+          "exit_code": 0
+        },
+        {
+          "files_checked": 1321,
+          "bytes_checked": 18463820,
+          "exit_code": 0
+        },
+        {
+          "files_checked": 1321,
+          "bytes_checked": 18463820,
+          "exit_code": 0
+        },
+        {
+          "files_checked": 1321,
+          "bytes_checked": 18463820,
+          "exit_code": 0
+        },
+        {
+          "files_checked": 1321,
+          "bytes_checked": 18463820,
+          "exit_code": 0
+        },
+        {
+          "files_checked": 1321,
+          "bytes_checked": 18463820,
+          "exit_code": 0
+        },
+        {
+          "files_checked": 1321,
+          "bytes_checked": 18463820,
+          "exit_code": 0
+        }
+      ]
+    }
+  ]
+}
