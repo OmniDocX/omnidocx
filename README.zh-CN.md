@@ -2,7 +2,7 @@
 
 # OmniDocX
 
-**演示、表格与矢量转换，从源码开始构建你的办公工具。**
+**国产办公软件，专注编辑体验、文件兼容与处理性能。**
 
 [English](README.md) | **简体中文**
 
@@ -14,9 +14,11 @@
 
 </div>
 
-OmniDocX 汇集 OmniDoc 已公开的 **UniPPT、UniCell 与 vecmeta**：两款可在本机运行的办公应用，以及连接 SVG 与 EMF 的 Rust 转换组件。你可以在同一仓库阅读、构建和研究这些项目，再按需接入各自的 AI、MCP 或库接口。
+OmniDoc 是一个纯国产办公软件项目。我们围绕文档、表格和演示三类核心场景，持续打磨编辑体验、文件兼容性与处理性能，致力于把国产办公软件做扎实。
 
-这是 OmniDoc 纯国产应用项目（app project）的源码合集，产品主站为 [omnidoc.top](https://omnidoc.top/)。
+本仓库公开 **UniPPT、UniCell 和 vecmeta** 三个项目的源码。UniPPT 用于演示文稿编辑，UniCell 用于电子表格编辑与计算，vecmeta 提供 SVG 与 EMF 矢量格式转换。每个项目均提供构建说明和性能测评，支持独立构建与运行。
+
+完整产品及在线服务：[omnidoc.top](https://omnidoc.top/)。
 
 ![OmniDocX project family](docs/images/overview.svg)
 
